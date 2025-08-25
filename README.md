@@ -24,12 +24,6 @@ Perfect for handling recurring tasks without blocking your `loop()`.
    - **Mac**: `Documents/Arduino/libraries/`
    - **Linux**: `~/Arduino/libraries/`
 
-### PlatformIO
-```ini
-lib_deps =
-    https://github.com/yourusername/ArduinoTaskScheduler.git
-```
-
 ### Example
 ```c++
 #include <Arduino.h>
