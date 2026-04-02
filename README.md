@@ -7,15 +7,15 @@ A lightweight, non-blocking task scheduler for Arduino projects.
 It allows you to periodically run functions with millisecond precision using a simple and minimal interface.  
 Perfect for handling recurring tasks without blocking your `loop()`.
 
-## ✨ Features
+## Features
 
-- **🕒 Millisecond Precision**: Uses `std::chrono` for accurate timing
-- **⚡ Non-Blocking**: Keeps your `loop()` responsive
-- **🔁 Multiple Schedulers**: Run several tasks at different intervals
-- **📦 Lightweight**: Minimal code, easy to integrate
-- **🚀 Simple API**: Just call `.run()` with your function
+- **Millisecond Precision**: Uses `std::chrono` for accurate timing
+- **Non-Blocking**: Keeps your `loop()` responsive
+- **Multiple Schedulers**: Run several tasks at different intervals
+- **Lightweight**: Minimal code, easy to integrate
+- **Simple API**: Just call `.run()` with your function
 
-## 📥 Installation
+## Installation
 
 ### Manual File Placement
 1. Download the library files (`scheduler.h`, `scheduler.cpp`)
